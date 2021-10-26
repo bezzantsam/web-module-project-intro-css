@@ -63,32 +63,31 @@ body{
 
 
 nav{
-    float: left;
-  padding: 2%, auto;
-  /* text-align: center; */
-  /* margin: 20px 5%; */
-  /* text-align: center; */
-   /* margin-left: 60px; */
-   display: inline-block;
-   text-align: end;
-   /* margin-left: 300px;
-   margin-right: 60px; */
-   width: 95%;
-   margin:0, auto;
    
+  padding: 2%, auto;
+ 
   
    
    
 }
+nav a{
+    display: inline-block;
+    padding: 1% 0;
+    border-radius: 10px;
+    width: 10%;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
    .visit{
     background-color:#FF764E;
-    margin: 0 auto;
+    margin-left:10%;
     
-    background-color: #EEEEEE;
-    padding: 8px 2      px;
+ 
+    padding: 8px 2px;
     text-decoration:none;
     font-weight:bold;
-    border-radius:120px;
+    /* border-radius:120px; */
     cursor:pointer;
     
     
@@ -102,12 +101,12 @@ nav{
    }
    .learn{
        background-color:#5ED3EB;
-       margin: 20px 0%;
-       background-color: #EEEEEE;
+       margin: 0, 24%;
+       
        padding: 8px 20px;
        text-decoration:none;
        font-weight:bold;
-       border-radius:120px;
+       /* border-radius:120px; */
        cursor:pointer;
    }
    a.learn:hover{
@@ -117,11 +116,11 @@ nav{
 }
    .involved{
        background-color:#FFCD69;
-       background-color: #EEEEEE;
+       
        padding: 8px  20px;
        text-decoration:none;
        font-weight:bold;
-       border-radius:120px;
+       /* border-radius:120px; */
        cursor:pointer;
        
        
@@ -170,7 +169,7 @@ div.words{
     line-height: 5.90rem;
    } 
 .title h1{
-    font-size:80px;
+    font-size:5rem;
     font-weight: bold;
     margin: auto;
     color: black;
