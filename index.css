@@ -13,7 +13,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
+
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -23,48 +23,41 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
+
+
+
 *{
-   
+   padding: 0;
+   margin: 0;
     box-sizing:border-box;
     max-width: 100%;
+    border: 1px solid grey;
 }
 body{
-    /* width: 90%;
-    border: 1px solid green;
-    height: vh;
-    margin: 0 auto;
-    text-align: center; */
+   
     font-size:1.6rem;
     line-height:1.5;
     color:#4f4f4f;
     font-family: 'Roboto Mono', monospace;
     max-width: 100%;
-    margin-left: 1px
+    text-align: center;
+    
+
+}
+header{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
 
 }
 
 
 nav{
-   
-  padding: 2%, auto;
+  /* display: inline-block;  */
+  padding: 2%, 0;
+  /* width: 100%;
+  text-align: center;
+  margin: o auto; */
  
   
    
@@ -78,13 +71,16 @@ nav a{
     text-align: center;
     color: white;
     text-decoration: none;
+    line-height: 1;
+    
+ 
 }
    .visit{
     background-color:#FF764E;
     margin-left:10%;
     
  
-    padding: 8px 2px;
+    padding: 8px 20px;
     text-decoration:none;
     font-weight:bold;
     /* border-radius:120px; */
@@ -116,8 +112,8 @@ nav a{
 }
    .involved{
        background-color:#FFCD69;
-       
-       padding: 8px  20px;
+       /* margin-left: 10%; */
+       padding: 15px  20px;
        text-decoration:none;
        font-weight:bold;
        /* border-radius:120px; */
@@ -125,21 +121,22 @@ nav a{
        
        
         }
-        a.involved:hover{
-            
-                text-transform: capitalize;
-                color: green;
-                font-weight: bolder;
-            }
+    a.involved:hover{
         
+            text-transform: capitalize;
+            color: green;
+            font-weight: bolder;
+        }
+    
 .image{
     width:18%;
-    
-    border-radius: 280px;
+    /* position:relative; 
+    bottom: 20%;  */
+    border-radius: 200px;
     padding: 8px 20px;
     /* margin-left: 10%;
     margin-top: 8%;  */
-    margin: 0, 20px;
+    margin:8% auto;
 
 
     
@@ -147,17 +144,18 @@ nav a{
 div.words{
     /* text-align: center; */
     float: right;
-    margin-top: 30px;
-    width: 55%;
+    margin-top: 8%;
+    width: 60%;
     font-size: 45px;
-    margin-right:20%;
+    margin-right:8%;
+ 
 }
 
 .top{
     display:inline-block;
     width: 100%;
     height: 10%;
-    margin-left:  10%; 
+    position:relative;
     margin-top: 4%;
     text-align: center;
 
@@ -190,6 +188,7 @@ div.words{
 }
 
 .body{
+    display: inline-block;
     max-width:95%;
     text-align: center;
     background-color: #DDB9A3;
@@ -213,7 +212,7 @@ div.words{
     max-width: 40%;
 
 }
-.van{
+.van {
     max-width: 42%;
 
 
@@ -257,29 +256,50 @@ footer nav{
     display: inline-block;
     
 }
-  
-            nav{
-                padding: 2%, auto;
-                text-align: center;
-                margin: auto;
+
+nav{
+padding: 2%, auto;
+text-align: center;
+margin: auto;
+line-height: 1;
+
+
+}
+    .visit{
+    background-color:#FF764E;
+    margin-left: 0%;
+    margin-top: 20px;
+    margin-right: 15%;
+    
+    
+
+    }
+    a.visit:hover{
+        text-transform: capitalize;
+        color: beige;
+        font-weight: bolder;
+    }
+    .learn{
+        background-color:#5ED3EB;
+        margin: 20px 24%;
+        padding: 8px 20px;
+
+    }
+    a.learn:hover{
+        text-transform: uppercase;
+        color: beige;
+        font-weight: bolder;
+    }
+    .involved{
+        background-color:#FFCD69;
+        padding: 15px, 20px;
+        }
+        a.involved:hover{
             
-                
-              }
-                 .visit{
-                  background-color:#FF764E;
-                  margin-left: 0%;
-                  margin-top: 20px;
-                  margin-right: 15%;
-                  
-                  
-              
-                 }
-                 .learn{
-                     background-color:#5ED3EB;
-                     margin: 20px 24%;
-                 }
-                 .involved{
-                     background-color:#FFCD69;
-                      }
+            text-transform: capitalize;
+            color: green;
+            font-weight: bolder;
+        }
+    
 
                     
